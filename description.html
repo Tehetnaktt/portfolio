@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Slideshow with Descriptions</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- ------------------nav bar--------------------------- -->
+  <nav class="navbar sticky-top  ">
+    <a href="#" class="navbar-brand text-white p-3">Tehetna Tesfaye</a>
+    <div class="navbar-toggle" id="navbarToggle">
+        <div class="toggle-bar"></div>
+        <div class="toggle-bar"></div>
+        <div class="toggle-bar"></div>
+    </div>
+    <ul class="navbar-menu" id="navbarMenu">
+        <li><a href="portfolio.html#home">Home</a></li>
+        <li><a href=" portfolio.html#resume">About</a></li>
+        <li><a href="portfolio.html#page1">Portfolio</a></li>
+        <li><a href="portfolio.html#contact">Contact</a></li>
+    </ul>
+</nav>
+<!-- ------------------nav bar--------------------------- -->  
+
+  <div class="container my-5 ">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('img/photo_1_2024-11-02_22-51-27.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Add Department</h5>
+                <p>Adds Department to the Database</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/photo_2_2024-11-02_22-51-27.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Add Position</h5>
+                <p>Adds position to the Database</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/photo_3_2024-11-02_22-51-27.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Update Employee</h5>
+                <p>Update Employee using ID no.</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/photo_4_2024-11-02_22-51-27.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Delete</h5>
+                <p>Delete Employee using their ID</p>
+              </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('img/photo_5_2024-11-02_22-51-27.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Add Employee</h5>
+                  <p>Add new Employee  </p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image: url('img/photo_6_2024-11-02_22-51-27.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>View Employee</h5>
+                  <p>View list of Employees that are registerd</p>
+                </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2>Project Descriptions</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <h5>CRUD Operation</h5>
+            <p>This application is a Node.js-based web application that allows users to perform essential data management operations—Create, Read, Update, and Delete (CRUD)—on a specified data set, such as employee accounts or items in a catalog.</p>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ------------------footer--------------------------- -->
+<footer id="footer fixed-bottom ">
+    <div class=" foot">
+      <div class="text-center">
+         Copyright <span>2024</span>
+      </div>
+    
+      </div>
+    </div>
+  </footer>
+  <!-- ------------------footer end--------------------------- -->
+
+  
+<script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
