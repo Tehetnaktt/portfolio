@@ -1,0 +1,198 @@
+/* nav bar */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    opacity: 90%;
+    
+}
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu li {
+    margin: 0 15px;
+    font-size: medium;
+}
+ul a:hover{
+    color: rgb(0, 132, 255);
+    
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.toggle-bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+    .navbar-menu.active {
+        display: flex;
+    }
+    .navbar-toggle {
+        display: flex;
+    }
+}
+/* nav bar */
+
+
+/* home page */
+.landing{
+    background-image: url(./img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.webp);
+    
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+/* end home page */
+
+/* about me */
+
+.style-paragraph {
+    font-size: 18px; /* Increase font size */
+    color: #333; /* Dark text color */
+    line-height: 1.6; /* Increase line height for readability */
+    background-color: #e7f3ff; /* Light background color */
+    padding: 15px; /* Add padding inside the paragraph */
+    border-left: 5px solid #4a90e2; /* Add a left border */
+    margin: 20px 0; /* Add margin above and below */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.about{
+    background-color: rgb(236, 234, 243);
+}
+/* about me end */
+
+/* portfolio */
+
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+#page1 {
+    text-align: center;
+}
+#page1 .part-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+#page1 .part{
+    width: 27%;
+    min-width: 550px;
+    padding: 10px 12px;
+    border: 1px solid purple;
+    border-width: 2px;
+    border-radius: 25px; 
+    cursor: pointer;
+    box-shadow: 20px 20px 30px gray ;
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+.port{
+    background-color: rgb(236, 234, 243);
+}
+/* portfolio  end*/
+
+/* contact */
+.con{
+    background-color: rgb(236, 234, 243);
+}
+
+/* contact end */
+
+/* footer*/
+
+.foot{
+    background-color: #333;
+    color:aliceblue
+}
+/* footer*/
+
+
+ /* description page */
+ 
+ .carousel-item {
+   height: 600px;
+   background-size: cover;
+   background-position: center;
+   
+ }
+ .carousel-caption {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   border-radius: 5px;
+ }
+ .carousel-caption h5 {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ .carousel-caption p {
+   font-size: 1rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
